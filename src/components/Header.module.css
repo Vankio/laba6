@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, #ff9800, #ffc107);
+  color: #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.nav a:hover {
+  background-color: rgba(255,255,255,0.2);
+  transform: scale(1.05);
+}
+
+.active {
+  border-bottom: 2px solid #fff;
+}
